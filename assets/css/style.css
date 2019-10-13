@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*----------------------Colors */
+/*----------------------------------------------------------Colors */
 
 .bg-color-name-title {
     background-color: #676767;
@@ -22,8 +22,27 @@
     background-color: #525252;
 }
 
+/*-------------------------------------------------Special padding/margins/text */
 
-/*----------------------heading */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+/*----------------------------------------------------------------heading */
 
 header {
     margin: 0;
@@ -112,16 +131,25 @@ header {
 }
 
 
-/*----------------------hover.css */
+/*---------------------------------------------------------------hover.css */
 
 .hvr-shutter-in-horizontal:before {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
-    
+
 }
 
 .hvr-shutter-in-horizontal {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
-    
+
+}
+
+/*----------------------------------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
