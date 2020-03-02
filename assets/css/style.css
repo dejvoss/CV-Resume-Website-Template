@@ -22,6 +22,10 @@
     background-color: #fff;
 }
 
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -29,7 +33,13 @@
 .ui-menu-color-resume {
     background-color: #9b59b6;
 }
-
+.ui-menu-color-interests {
+    background-color: red;
+}
+.ui-menu-color-github {
+    background-color: black;
+    ""
+}
 .ui-menu-color-contact {
     background-color: #3498db;
 }

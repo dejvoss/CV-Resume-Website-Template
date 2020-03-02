@@ -54,67 +54,20 @@
     </header>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-md-4 bg-color-personal-info section-column">
+            <div class="col-md-4 bg-color-conferences section-column">
                 <div class="row">
                     <div class="col-12">
                         <h3 class="section-heading uppercase">
-                            Personal Info
+                            Conferences and meetups attended
                         </h3>
                     </div>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Name:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                          Dawid Osiecki  
-                        </p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Address:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                          Spijkenisse, Netherland 
-                        </p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Phone:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                          +31 555 458 445  
-                        </p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            email:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                          rigiram@gmail.com  
-                        </p>
-                    </div>
-                </div>
+                <div id="map"></div>
             </div>
             <div class="col-md-8 bg-color-three-reasons section-column">
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading uppercase">About Me</h3>
+                        <h3 class="section-heading uppercase">MY society</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -124,9 +77,9 @@
                                 <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">What do I do?</h4>
+                                <h4 class="three-reasons-heading uppercase">Night riders</h4>
                                 <p>
-                                    I am the Full Stack Developer for logistics with 10 years of experience and highly customer focus oriented skills which i put to my all projects.
+                                    Night riders are the group of pepople like cycling in the night. Mostyle we are riding on fiex gear bikes.
                                 </p>
                             </div>
                         </div>
@@ -137,9 +90,9 @@
                                 <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
+                                <h4 class="three-reasons-heading uppercase">Film lovers</h4>
                                 <p>
-                                    I am reviewing processes and implement automatization using the developers tools like HTML, CSS and VBA.
+                                    Film lovers is a group of my friends who like to watch movies and serie movies. We meet each other to talk about it.
                                 </p>
                             </div>
                         </div>
@@ -150,9 +103,9 @@
                                 <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
+                                <h4 class="three-reasons-heading uppercase">Introvertyk group</h4>
                                 <p>
-                                    I am customer focus oriented who always is looking for best solutions easy to apply for all users.
+                                    We are introventyks and we want to live together in the groups. Meet each other to rise the sociality connection.
                                 </p>
                             </div>
                         </div>
@@ -223,6 +176,23 @@
         </div>
 
     </footer>
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 3,
+            center: {
+                lat: 46.619261,
+                lng: -33.134766
+                }
+            });
+        }
+        
+    </script>
+
+    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCITcMoRGy9H0OWl01VPN4sZeyp6ZzI8iw&callback=initMap">
+    </script>
 </body>
 
 </html>
