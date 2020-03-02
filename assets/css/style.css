@@ -396,3 +396,15 @@ button[type="submit"] {
     max-width: 50%;
 }
 }
+
+
+/***************** google map*/
+
+div#map {
+    min-height: 360px;
+}
+
+/*#map {
+    width: 500px;
+    height: 300px;
+}*/
