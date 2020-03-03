@@ -386,6 +386,16 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+/***************** google map*/
+
+div#map {
+    min-height: 360px;
+}
+
+
+
+
+
 /*---------------------------------------------------------------- MEdia query */
 
 @media(min-width: 992px) {
@@ -395,16 +405,5 @@ button[type="submit"] {
     margin: 0 auto;
     max-width: 50%;
 }
-}
 
 
-/***************** google map*/
-
-div#map {
-    min-height: 360px;
-}
-
-/*#map {
-    width: 500px;
-    height: 300px;
-}*/
