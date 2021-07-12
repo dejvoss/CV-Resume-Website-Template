@@ -1,15 +1,7 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Website as Curriculum vitae.
 
+Project is an a website CV and can be used as an extension of the paper form of CV.
+Live demo can be find [here](https://www.)
 
-Hi there! Welcome to AWS Cloud9!
+Website CV contain more and detailed information than regular CV. Webpage is split by most common section used in paper CV for good readability and have just more informations and details. There are also downloadable version of 1 page CV.
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
-# UCD_resume

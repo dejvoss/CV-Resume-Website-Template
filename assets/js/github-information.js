@@ -21,18 +21,22 @@ function repoInformationHTML(repos) {
     }
 
     var listItemsHTML = repos.map(function(repo) {
-        return `<li>
-                    <a href="${repo.html_url}" target="_blank">${repo.name}</a>
-                </li>`;
+        return `<tr>
+                    <td><a href="${repo.html_url}" target="_blank">${repo.name}</td> <td>${repo.description}</td>
+                </tr>`;
     });
 
     return `<div class="clearfix repo-list">
                 <p>
                     <strong>Repo List:</strong>
                 </p>
-                <ul>
-                    ${listItemsHTML.join("\n")}
-                </ul>
+                <table>
+                    <tr>
+                        <th>Repository name</th>
+                    
+                    </tr>
+                        ${listItemsHTML.join("\n")}
+
             </div>`;
 }
 
