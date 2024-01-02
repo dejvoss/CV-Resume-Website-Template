@@ -26,7 +26,7 @@ function repoInformationHTML(repos) {
     
     var listItemsHTML = repos.map(function(repo) {
         return `<tr>
-                    <td><a href="${repo.html_url}" target="_blank">${repo.name}</td> <td><b>${repo.description}</b></td>
+                    <td><a href="${repo.html_url}" target="_blank">${repo.name}</td> <td>${repo.description}</td>
                 </tr>`;
     });
 
