@@ -1,7 +1,10 @@
 # Website as Curriculum vitae.
 
-Project is an a website CV and can be used as an extension of the paper form of CV.
-Live demo can be find [here](https://www.)
+The project is a web template for the resume and CV. It could be a great starting point for your portfolio.
 
-Website CV contain more and detailed information than regular CV. Webpage is split by most common section used in paper CV for good readability and have just more informations and details. There are also downloadable version of 1 page CV.
+Live demos can be found [here](https://dejvoss.github.io/cs_UCD_resume/)
 
+# How to use for your purpose:
+1. Download or clone the repository to your local machine by clicking the green button.
+2. Open each HTML files and adjust it to match your personal information.
+3. Replace the files in assets/images folder to change the website avatar and the favicon.
