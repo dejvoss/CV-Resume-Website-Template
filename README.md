@@ -14,6 +14,12 @@ Live demos can be found [here](https://dejvoss.github.io/cs_UCD_resume/)
 
 The GitHub section contains the GitHub API which allows to display list of projects of the given username.
 
+## Technologies:
+
+* HTML5
+* Bootstrap framework
+* GitHub API
+
 ## Important Notice:
 
 This project includes features such as email functionality and Google Maps rendering, which are currently non-operational due to the requirement of secure API keys, login credentials, and passwords. For security reasons, these sensitive details are not stored within the project's JavaScript codebase. To enable these features, an appropriate and secure configuration with the necessary credentials is required.
