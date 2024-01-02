@@ -2,7 +2,7 @@
 
 The project is a web template for the resume and CV. It could be a great starting point for your portfolio.
 
-Live demos can be found [here](https://dejvoss.github.io/cs_UCD_resume/)
+Live demos can be found [here](https://dejvoss.github.io/CV-Resume-Website-Template/)
 
 ## How to use the template:
 
