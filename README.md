@@ -4,6 +4,8 @@ The project is a web template for the resume and CV. It could be a great startin
 
 Live demos can be found [here](https://dejvoss.github.io/CV-Resume-Website-Template/)
 
+![Web mockup](https://github.com/dejvoss/CV-Resume-Website-Template/blob/master/assets/images/web_mockup.png)
+
 ## How to use the template:
 
 1. Download or clone the repository to your local machine by clicking the green button.
