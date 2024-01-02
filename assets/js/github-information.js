@@ -20,6 +20,10 @@ function repoInformationHTML(repos) {
         return `<div class="clearfix repo-list">No repos!</div>`;
     }
 
+     repos.sort(function(a, b) {
+        return new Date(b.updated_at) - new Date(a.updated_at);
+    });
+    
     var listItemsHTML = repos.map(function(repo) {
         return `<tr>
                     <td><a href="${repo.html_url}" target="_blank">${repo.name}</td> <td>${repo.description}</td>
